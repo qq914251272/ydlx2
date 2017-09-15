@@ -1,0 +1,27 @@
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0;
+  background: #f0f0f0; }
+
+.a {
+  width: 10.1333333333rem;
+  height: 10.1rem;
+  margin-left: 7.0666666667rem;
+  margin-top: 11.2666666667rem; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 0.6666666667rem;
+  margin-left: 7.0666666667rem; }
+
+.b {
+  margin: 0;
+  width: 11.7rem;
+  height: 1.3rem;
+  margin-left: 6.3333333333rem;
+  margin-top: 4.3333333333rem; }
+
+/*# sourceMappingURL=1.css.map */
