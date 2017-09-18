@@ -1,0 +1,44 @@
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0; }
+  body header {
+    width: 100%;
+    height: 2.54rem;
+    background: #148ad2; }
+  body section {
+    width: 100%;
+    height: 3.38rem;
+    background: #1183c9; }
+    body section ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      font-size: 18px;
+      align-items: center;
+      justify-content: space-around; }
+      body section ul li {
+        height: 1rem;
+        text-align: center;
+        width: 2.8rem;
+        padding: 0.2rem;
+        border-radius: 30px; }
+        body section ul li:nth-child(1) {
+          border: 1px solid white; }
+  body footer, body footer ul, body footer ul li {
+    margin: 0;
+    width: 100%; }
+    body footer ul, body footer ul li ul {
+      padding: 0;
+      list-style: none; }
+      body footer ul img {
+        width: 50%;
+        vertical-align: top; }
+
+/*# sourceMappingURL=1.css.map */
