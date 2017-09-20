@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			.box{
+				width: 200px;
+				height: 200px;
+				background: #ccc;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<script type="text/javascript">
+			var div = document.querySelector(".box")
+			div.onclick = function(){
+				console.log(11111)
+			}
+			div.addEventListener("touchstart",function(e){
+				div.innerHTML = e.touches.length
+			})
+			div.addEventListener("touchmove",function(e){
+				console.log(3333)
+			})
+			div.addEventListener("touchend",function(e){
+				console.log(4444)
+			})
+		</script>
+	</body>
+</html>
